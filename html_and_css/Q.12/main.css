@@ -1,0 +1,125 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#header{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1 rem ;
+    color: #00c69a;
+    
+
+}
+#nav-items{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+.nav-item{
+    margin: 5px;
+}
+
+.control{
+    display: block;
+    margin: 10px 2px 1% 0px;
+
+}
+
+
+.card{
+    border-style: solid;
+    border-color: #bdbdbd;
+    max-width: 30em;
+    border-radius:5px;
+    margin: 0 auto;
+    
+    
+    
+
+}
+ 
+.card-header{
+    background-color:#bdbdbd;
+    padding: 1%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+
+
+ select{
+    width: 100%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color:#00c69a;
+    color:white    ;
+    font-weight: bold;
+
+ } 
+
+  .card>form{
+
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+
+  .card-footer{
+      background-color: #bdbdbd;
+      padding: 2%;
+  }
+  input[type="submit"]{
+
+    background-color: #00c69a;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #00c69a;
+    
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 4px 2px 2px 80%;
+    cursor: pointer;
+
+}
+  textarea{
+    width: 100%;
+    padding: 7px 2px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+
+  }
+
+input[type="file"]
+{
+    padding: 1% 42% 1% 1% ;
+
+}
+
+
+.version{
+    max-width: 40%;
+    display: block;
+    white-space: pre-line;
+}

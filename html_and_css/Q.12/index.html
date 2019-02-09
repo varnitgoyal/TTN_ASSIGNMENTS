@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning @ TOTHENEW</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <header id=header>
+        <brand id="brand">
+            TO THE NEW
+        </brand>
+        <nav id=nav>
+            <ul id="nav-items">
+                <li class="nav-item">Home</li>
+                <li  class="nav-item">Quick Help</li>
+            </ul>
+
+        </nav>
+   </header>
+  <hr>
+
+<div class="card" text-align=center >
+    
+
+   
+    <div class="card-header">  
+        <h3 style="color:white; font-weight:bold"> Bug Report</h3>
+
+
+    </div>
+    <form  >
+        
+        <label for="title">Title:*</label>
+        <input type="text" class="control"/> 
+        
+        <label for="Description">Description:*</label>
+        <textarea rows="4" class="control" cols="50">
+         </textarea>
+        <label for="operating system">Operating system</label>
+        <select class="control">
+                <option value="windows xp">windows xp</option>
+                <option value="windows 7">windows 7</option>
+                <option value="widows 8">widows 8</option>
+                <option value="windows 10">windows 10</option>
+        </select> 
+        <label for="product">Product</label>
+        <select class="control">
+                <option value="gp cloud">GP cloud</option>
+                <option value="vr assist">vr assist</option>
+                <option value="edurova">edurova</option>
+                <option value="edureka">edureka</option>
+        </select>
+        <label for="version">Version</label><br/>
+        <input type="text" class="control version"/><br/>
+        <label for="license">License</label> <br/>
+        <input type="radio" name="Free"   value="Free" checked>Free</input>
+        <input type="radio" style='margin-left:40%' name="Business"  value="Business">Business </input> <br/>
+        <label for="Sevierity">Sevierity</label>
+        <select class="control">
+                <option value="urgent">Urgent</option> 
+                <option value="critical">critical</option>                
+                <option value="medium">medium</option>
+                <option value="low">low</option>
+        </select>
+        
+
+        <label for="attachment">Attachment</label><br/>
+        
+        
+        <input type="file"  class="control"/>
+    </form>
+    <div class="card-footer">
+        <input type="submit" value="Send"/>
+
+    </div>
+
+</div>
+
+    
+    
+</body>
+</html>
