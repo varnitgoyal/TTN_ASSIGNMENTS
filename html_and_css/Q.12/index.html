@@ -35,10 +35,10 @@
     <form  >
         
         <label for="title">Title:*</label>
-        <input type="text" class="control"/> 
+        <input type="text" required class="control"/> 
         
         <label for="Description">Description:*</label>
-        <textarea rows="4" class="control" cols="50">
+        <textarea rows="4" required class="control" cols="50">
          </textarea>
         <label for="operating system">Operating system</label>
         <select class="control">
@@ -54,8 +54,8 @@
                 <option value="edurova">edurova</option>
                 <option value="edureka">edureka</option>
         </select>
-        <label for="version">Version</label><br/>
-        <input type="text" class="control version"/><br/>
+        <label for="version">Version*</label><br/>
+        <input type="text" required class="control version"/><br/>
         <label for="license">License</label> <br/>
         <input type="radio" name="Free"   value="Free" checked>Free</input>
         <input type="radio" style='margin-left:40%' name="Business"  value="Business">Business </input> <br/>
