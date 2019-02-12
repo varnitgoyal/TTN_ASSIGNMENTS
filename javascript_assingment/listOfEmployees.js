@@ -37,3 +37,7 @@ let Employees=[
 
 
 ]
+
+let printAllEmployees=function(){
+ Employees.forEach(emp=>console.log(emp)
+ )};

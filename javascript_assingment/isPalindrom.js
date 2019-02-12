@@ -1,8 +1,9 @@
 "use strict";
-let isPalindrom=function (str){
+let isPalindrom=function (){
+    let str=prompt("enter the string");
 
     let rev_str=str.split('').reverse().join('');
-    return rev_str==str;  
+    alert( rev_str==str);  
        
       
     }
