@@ -5,20 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="app.js" type="text/javascript"> </script>
-    <Script src="prompt.js" type="text/javascript">
-        </Script>
-        <script src="isPalindrom.js">
-        </script>
-    <script src="areaOfCircle.js" type="text/javascript">
-    </script>
-    <script src="objectCopy.js" type="text/javascript">
-    </script>
-
-    </script>
-    <script type="text/javascript" src="listOfEmployees.js">
-    </script>
-    <title>Document</title>
+    <Script src="prompt.js" type="text/javascript"></Script>
+   <script src="isPalindrom.js"></script>
+    <script src="areaOfCircle.js" type="text/javascript"></script>
+    <script src="objectCopy.js" type="text/javascript"></script>
+    <script type="text/javascript" src="listOfEmployees.js"> </script>
+    <script type="text/javascript" src="operationsOnObject.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+    <title>javascript assignments</title>
 </head>
 <body>
+    <header>
+        <h1> TTN JAVASCRIPT ASSIGNMENT</h1>
+    </header>
+    <hr/>
+    <div class="container">
+    <table style="width:100%">
+        <tr>
+           
+          <th>Question </th>
+          <th>Answer</th> 
+      
+        </tr>
+        <tr>
+          <td>calculate simple interest</td>
+          <td><button onclick="calculateSimpleInterest()">Click Here</button></td> 
+          
+        </tr>
+        <tr>
+          <td>is palindrome string</td>
+          <td><button onclick="isPalindrom()">Click Here</button></td> 
+          
+        </tr>
+        <tr>
+                <td>area of circle</td>
+                <td><button onclick="areaOfCircle()">Click Here</button></td> 
+                
+       </tr>
+       <tr>
+            <td>Copy information of one object to another and log it to console.
+
+                </td>
+            <td><button onclick="ObjectCopy()">Click Here</button></td> 
+            
+   </tr>
+   <tr>
+        <td>create a list of objects of Employee with info as follow :</td>
+        <td><button onclick="printAllEmployees()">Click Here</button></td> 
+        
+</tr>
+<tr>
+        <td>filter all employees with salary greater than 5000</td>
+        <td><button onclick="filterBySalary()">Click Here</button></td> 
+        
+</tr>
+<tr>
+    <td>Group by age</td>
+    <td><button onclick="groupByAge()">Click Here</button></td>
+</tr>
+       
+<tr>
+        <td>fetch employees with salary less than 1000 and age greater than 20. Then give them an increment 5 times their salary.</td>
+        <td><button onclick="mapEmployees()">Click Here</button></td>
+    </tr>
+       
+      </table>
+
+      <h2 id=note> Note: please open the javascript debugging console before executing questions by using F12 in chrome</h2>
+    </div>
+
 </body>
 </html>
