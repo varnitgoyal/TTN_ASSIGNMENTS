@@ -46,7 +46,8 @@ p h3{
 
 .logo{
    
-        background: url('images/logo.png') no-repeat -200px -8px;
+        background: url('assets/images/logo.png') no-repeat -200px -8px;
+
         width: 210px;
         height: 52px;
         
