@@ -1,0 +1,74 @@
+#q1 p:hover{
+    text-decoration: underline;
+    
+}
+
+
+#q2{
+    text-decoration:line-through;
+}
+
+#q3{
+    border-style: solid;
+    border-color:black;
+    margin-right: 90%;
+    word-break: break-all;
+}
+
+#q4{
+    border-style: solid;
+    border-color: black;
+    width: 180px;
+    
+   
+    
+
+}
+#q4 p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    
+}
+
+#q5{
+    font-size: 10px;
+    border-style: solid;
+    border-color: black;
+}
+#q5 h3{
+    font-size: 2em;
+    border-style: solid;
+    border-color: red;
+}
+#q5 p{
+    font-size: 3em;
+    border-style: solid;
+    border-color: green;
+}
+
+#q6{
+    font-size: 16px;
+    border-style: solid;
+    border-color: black;
+}
+#q6 h3{
+    font-size: 2rem;
+    border-style: solid;
+    border-color: red;
+}
+#q6 p{
+    font-size: 3rem;
+    border-style: solid;
+    border-color: green;
+}
+
+#q7 p{
+    text-indent: 50px;
+}
+
+#q8 h2{
+    text-shadow: 5px 5px 5px red;
+    color: blue;
+
+}

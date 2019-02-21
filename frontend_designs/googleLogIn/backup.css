@@ -1,0 +1,496 @@
+@font-face {
+    font-family: "google-sans";
+    src: url("fonts/GoogleSans-Medium.woff") format("woff");
+  }
+  
+  html,
+  body {
+    display: flex;
+    margin-top: 51px;
+    color: #202124;
+    border-width: thin;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .card {
+    margin: auto;
+    border-style: solid;
+    border-color: #d9dadf;
+    padding: 47px 40px 62px 47px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+  }
+  
+  .card__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card__title {
+    font-family: "google-sans", sans-serif;
+    font-size: 24px;
+  }
+  
+  .card__subtitle {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .card__textfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    margin-bottom: 30px;
+  }
+  
+  .card__textfield input {
+    padding: 13px 15px 15px 13px;
+    text-align: left;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #d9dadf;
+    border-width: 1px;
+    min-width: 90%;
+    height: 25px;
+    outline: none;
+  }
+  
+  .card__textfield input:focus {
+    border-style: solid;
+    border-color: rgb(26, 115, 232);
+    border-width: 2px;
+  }
+  
+  input[type="text"]:focus + p {
+    float: left;
+    padding: 0 5px;
+    transform: translate(-110px, -82px);
+    position: relative;
+    background: #fff;
+    color: rgb(26, 115, 232);
+  }
+  
+  .card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card__footer button {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    width: 90px;
+    height: 37px;
+  }
+  
+  footer {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "google-sans";
+    font-size: 12px;
+    line-height: 1.4;
+    flex-wrap: wrap;
+  }
+  
+  .menu__items {
+    list-style: none;
+    display: flex;
+    margin-right: 49px;
+  }
+  .menu__items li {
+    margin: 10%;
+  }
+  
+  .text--blue {
+    font-family: "Roboto", sans-serif;
+    color: rgb(26, 115, 232);
+    font-size: 14px;
+  }
+  .text--grey {
+    color: #5f6368;
+  }
+  
+  .button--blue {
+    @font-face {
+      font-family: "google-sans";
+      src: url("fonts/GoogleSans-Medium.woff") format("woff");
+    }
+  
+    html,
+    body {
+      display: flex;
+      margin-top: 51px;
+      color: #202124;
+      border-width: thin;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .card {
+      margin: auto;
+      border-style: solid;
+      border-color: #d9dadf;
+      padding: 47px 40px 62px 47px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      border-width: 1px;
+    }
+  
+    .card__header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card__title {
+      font-family: "google-sans", sans-serif;
+      font-size: 24px;
+    }
+  
+    .card__subtitle {
+      font-family: "Roboto", sans-serif;
+    }
+  
+    .card__textfield {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      margin-bottom: 30px;
+    }
+  
+    .card__textfield input {
+      padding: 13px 15px 15px 13px;
+      text-align: left;
+      border-radius: 4px;
+      border-style: solid;
+      border-color: #d9dadf;
+      border-width: 1px;
+      min-width: 90%;
+      height: 25px;
+      outline: none;
+    }
+  
+    .card__textfield input:focus {
+      border-style: solid;
+      border-color: rgb(26, 115, 232);
+      border-width: 2px;
+      outline-offset: -2px;
+    }
+  
+    .card__textfield p {
+      float: left;
+      padding: 0 5px;
+      margin: -65px 0 0 -200px;
+      position: relative;
+      margin-bottom: 50px;
+  
+      top: 50%;
+  
+      background: #fff;
+      color: rgb(26, 115, 232);
+    }
+  
+    .card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .card__footer button {
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      width: 90px;
+      height: 37px;
+    }
+  
+    footer {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-between;
+      font-family: "google-sans";
+      font-size: 12px;
+      line-height: 1.4;
+      flex-wrap: wrap;
+    }
+  
+    .menu__items {
+      list-style: none;
+      display: flex;
+      margin-right: 49px;
+    }
+    .menu__items li {
+      margin: 10%;
+    }
+  
+    .text--blue {
+      font-family: "Roboto", sans-serif;
+      color: rgb(26, 115, 232);
+      font-size: 14px;
+    }
+    .text--grey {
+      color: #5f6368;
+    }
+  
+    .button--blue {
+      background-color: rgb(26, 115, 232);
+      color: white;
+      font-family: "google-sans";
+      border-radius: 5px;
+      border-color: rgb(26, 115, 232);
+  
+      outline: none;
+    }
+    .text--margin {
+      margin-bottom: 5%;
+    }
+  
+    .forgot_email--margin {
+      margin-bottom: 53px;
+    }
+    .learn_more--margin {
+      margin-top: -10px;
+      margin-bottom: 50px;
+    }
+  
+    .subtitle--margin {
+      margin-bottom: 20px;
+    }
+  
+    .title--margin {
+      margin-bottom: 8px;
+    }
+    @font-face {
+      font-family: "google-sans";
+      src: url("fonts/GoogleSans-Medium.woff") format("woff");
+    }
+  
+    html,
+    body {
+      display: flex;
+      margin-top: 51px;
+      color: #202124;
+      border-width: thin;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+  
+    .card {
+      margin: auto;
+      border-style: solid;
+      border-color: #d9dadf;
+      padding: 47px 40px 62px 47px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-radius: 10px;
+      border-width: 1px;
+    }
+  
+    .card__header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .card__title {
+      font-family: "google-sans", sans-serif;
+      font-size: 24px;
+    }
+  
+    .card__subtitle {
+      font-family: "Roboto", sans-serif;
+    }
+  
+    .card__textfield {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      margin-bottom: 30px;
+    }
+  
+    .card__textfield input {
+      padding: 13px 15px 15px 13px;
+      text-align: left;
+      border-radius: 4px;
+      border-style: solid;
+      border-color: #d9dadf;
+      border-width: 1px;
+      min-width: 90%;
+      height: 25px;
+      outline: none;
+    }
+  
+    .card__textfield input:focus {
+      border-style: solid;
+      border-color: red;
+      border-width: 2px;
+      outline-offset: -2px;
+    }
+  
+    .card__textfield input:focus p {
+      float: left;
+      padding: 0 5px;
+      margin: -65px 0 0 -250px;
+      position: relative;
+      margin-bottom: 50px;
+      font-weight: normal;
+      top: 50%;
+  
+      background: #fff;
+      color: rgb(26, 115, 232);
+    }
+  
+    .card__footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .card__footer button {
+      font-family: Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      width: 90px;
+      height: 37px;
+    }
+  
+    footer {
+      display: flex;
+      align-content: center;
+      align-items: center;
+      justify-content: space-between;
+      font-family: "google-sans";
+      font-size: 12px;
+      line-height: 1.4;
+      flex-wrap: wrap;
+    }
+  
+    .menu__items {
+      list-style: none;
+      display: flex;
+      margin-right: 49px;
+    }
+    .menu__items li {
+      margin: 10%;
+    }
+  
+    .text--blue {
+      font-family: "Roboto", sans-serif;
+      color: rgb(26, 115, 232);
+      font-size: 14px;
+    }
+    .text--grey {
+      color: #5f6368;
+    }
+  
+    .button--blue {
+      background-color: rgb(26, 115, 232);
+      color: white;
+      font-family: "google-sans";
+      border-radius: 5px;
+      border-color: rgb(26, 115, 232);
+  
+      outline: none;
+    }
+    .text--margin {
+      margin-bottom: 5%;
+    }
+  
+    .forgot_email--margin {
+      margin-bottom: 53px;
+    }
+    .learn_more--margin {
+      margin-top: -10px;
+      margin-bottom: 50px;
+    }
+  
+    .subtitle--margin {
+      margin-bottom: 20px;
+    }
+  
+    .title--margin {
+      margin-bottom: 8px;
+    }
+  
+    @media screen and (max-width: 600px) {
+      .card {
+        width: 100%;
+        border-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+      }
+      .body {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  
+    @media screen and (max-width: 600px) {
+      .card {
+        width: 100%;
+        border-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+      }
+      .body {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  
+    background-color: rgb(26, 115, 232);
+    color: white;
+    font-family: "google-sans";
+    border-radius: 5px;
+    border-color: rgb(26, 115, 232);
+  
+    outline: none;
+  }
+  .text--margin {
+    margin-bottom: 5%;
+  }
+  
+  .forgot_email--margin {
+    margin-bottom: 53px;
+  }
+  .learn_more--margin {
+    margin-top: -10px;
+    margin-bottom: 50px;
+  }
+  
+  .subtitle--margin {
+    margin-bottom: 20px;
+  }
+  
+  .title--margin {
+    margin-bottom: 8px;
+  }
+  
+  
