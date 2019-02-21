@@ -24,7 +24,7 @@ body{
 }
 
 .brand__logo {
-        background: url('https://s3.amazonaws.com/it-academy-photos-bucket/facebook_sprite.png?response-content-disposition=inline&X-Amz-Security-Token=AgoGb3JpZ2luEH4aCmFwLXNvdXRoLTEigAIIsXqrPWALdopZk1eArC%2FxlNeQ6GGUqu5xyHi1dhv52ualNL5VidIMlZaxvAovjg4ey5azWUnXoLoOhjbYydg49tPk%2BeFRDLcym1r%2BBeeYnvvbCyDzhTZSzuAULYZSC%2FcIlxbzBWhTHbZ2%2Ffd4fhox9LVcmgu6H2VEznJ7PgbfgM0j0s5Rjzz%2FJ7O7qY9oQoe76fPdvByF%2B2Yh%2BWsmoiJt%2FyWJYE1BPWolmbyjzhm0sfQymq8UTw3V8ReK%2FUtI4ZZ6qsOGBQYydcrb%2FvoTHxenuhBg8PJcP1XnaG0%2F3ZNLr%2FwC5%2FOzgnSqrGmsKpAtSJGdGZbUr62zbaEFez5ZTkCEKqoCCKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQABoMMzM5MzUyMzY1MDA5Igz1wfBL5AhLUhpn6tgq%2FgE1GN%2BVOrM0YLlTPrDoAtV3u825P4wvvqjrMYSCTFmmd0fOPByKMNWRSqElQ3idvOhNtSQbXLoBSyzFpLSln0irqbeUwmbbGGNXm3%2BAT1B7m2G9E5Lf%2Bs70srenGdZxJVKGG%2BO3V6fc19UWSK5E2oUbEjOztKXumLa1ujEFbzeAZhWCdB3H6ZnOFyAMk8zKoHD24ZVdheJGzVYIHUKMkDIn%2FpQFggmjQqjeC6%2FRcb5W%2Bl6IShxFRU0lihYydiPrq6VnkGuBxvzeVAY79IYBRNWkFzMpyoPgC11WE4SCClSIFK2K0Mv6%2Fm6FY7uGqZth5N2Nv2nRoMSceOFUNO8I2TCq1bnjBQ%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190221T091247Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAU6AX2E7I2CCKXOOJ%2F20190221%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=6db79f33f20cac442b149555ac8298c90f3acc24b025f0dda1295ff9a512b4f2') no-repeat 0 0;
+        background: url('file:///facebook_sprite.png') no-repeat 0 0;
         width: 170px;
         height: 30px;
         
