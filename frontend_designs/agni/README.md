@@ -7,7 +7,6 @@ Project can be directly run using index.html in dist folder or using
 
 ```
 npm run dev 
-
 ```
 
 
@@ -17,7 +16,6 @@ If changes needs to be reloaded in realtime, which is needed during development 
 
 ```
 npm run watch
-
 ```
 
 ### Building Project Manually ###
@@ -25,8 +23,7 @@ npm run watch
 Project can be build manually using 
 
 ```
-npm run build ###
-
+npm run build 
 ```
 
 
