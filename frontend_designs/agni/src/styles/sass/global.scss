@@ -1,0 +1,20 @@
+$primary_color: orange;
+$header_padding: 1.5%;
+$roboto: "Roboto", "sans-serif";
+$body_background: linear-gradient(to bottom, #f6f7fb, #ffffff);
+img {
+    height: auto;
+ 
+    
+  }
+  
+  
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: $body_background;
+  overflow-x: hidden;
+}
