@@ -30,6 +30,9 @@ npm run build
 
 
 
-### This project is generated using TTN-WebAPP generator ###
+
+
+
+For more Information
 
 [TTN-WEBAPP Generator](https://github.com/varnitgoyal/generator-ttn-webapp)
