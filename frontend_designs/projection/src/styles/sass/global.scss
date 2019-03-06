@@ -1,0 +1,40 @@
+@include placeholder {
+    font-family:$font-family-sans;
+    color: white;
+    font-weight:100;
+}
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+h6 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+p {
+  font-size: 1rem;
+}

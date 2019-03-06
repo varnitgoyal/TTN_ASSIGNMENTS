@@ -1,0 +1,51 @@
+@media only screen and (max-width: 992px) {
+  
+    .top_header_items .nav_items {
+        display: none;
+      }
+      .responsive_bar {
+        display: block;
+      }
+    
+      .features {
+        display: block;
+    
+        li {
+          max-width: 100%;
+          margin-bottom: 50px;
+        }
+      }
+    
+      .input-secondary {
+        width: 100%;
+      }
+    
+      .small-fields {
+        display: block !important;
+      }
+    }
+    
+    @media screen and (max-width: 768px) {
+    .rest_header .header_cards {
+        display: block ;
+      }
+    
+      .rest_header .header_cards .card_item {
+        width: 100%  ;
+        padding-right: 0 ;
+        border-right: none ;
+      }
+    
+      .get_in_touch {
+        padding-left: 10px ;
+        padding-right: 10px;
+        width: 100%;
+      }
+    
+      .features {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+      }
+    }
+    
