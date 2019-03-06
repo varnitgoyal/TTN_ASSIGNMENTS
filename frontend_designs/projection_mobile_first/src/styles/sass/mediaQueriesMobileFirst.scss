@@ -1,0 +1,72 @@
+@media only screen and (min-width: 992px) {
+  .responsive_bar {
+    display: none;
+  }
+
+  .top_header{
+      border-bottom: 1px solid gray;
+  }
+
+  .nav_items {
+    display: flex;
+    margin-right: 1%;
+
+    li {
+      margin-right: 4%;
+      font-family: $font-family-sans;
+      font-size: 18px;
+    }
+    li:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .features {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+
+    li {
+      max-width: 25%;
+    }
+  }
+
+  .small-fields {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .input-secondary {
+    width: 99%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+    .rest_header .header_cards {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        
+      }
+    
+      .rest_header .header_cards .card_item {
+        width: 100%  ;
+        margin-right: 2%;
+      border-right: 2px solid gray;
+      padding-right: 50px;
+        
+      }
+    
+      .get_in_touch {
+        
+        padding: 100px;
+        
+      }
+    
+      .features {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+      }
+    }
