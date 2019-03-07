@@ -12,8 +12,16 @@ let pic2Ele=document.getElementById("pic2");
 pic1Ele.src=pic1;
 pic2Ele.src=pic2;
 
+
+$("form").submit(function(e){
+  console.log("form submitted");
+  e.preventDefault();
+  return false;
+});
+
+
 $(document).ready(function(){
-  console.log("hover on phone")
+
   $(".responsive_bar").click (function() {
   $(".nav_item").addClass('animate');
   

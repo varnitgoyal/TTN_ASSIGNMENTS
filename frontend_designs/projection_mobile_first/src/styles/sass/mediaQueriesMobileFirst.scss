@@ -8,12 +8,13 @@
   }
 
   .nav_items {
-    display: flex;
-    margin-right: 1%;
+    
+    display: flex !important;
+    margin-right: 1% !important;
 
     li {
-      margin-right: 4%;
-      font-family: $font-family-sans;
+      margin-right: 4% !important;
+      font-family: $font-family-sans ;
       font-size: 18px;
     }
     li:last-child {
